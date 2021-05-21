@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\Validators\" />
+    <Folder Include="Entities\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="fluentvalidation" Version="10.1.0" />
+    <PackageReference Include="mediatr" Version="9.0.0" />
+  </ItemGroup>
+
+</Project>
